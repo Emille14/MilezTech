@@ -1,209 +1,74 @@
 <!DOCTYPE html>
-<html lang="en">
-
+<html>
 <head>
-  <meta charset="utf-8">
-  <meta content="width=device-width, initial-scale=1.0" name="viewport">
-
-  <title>MilezTech</title>
-  <meta content="" name="description">
-  <meta content="" name="keywords">
-
-  <!-- Favicons -->
-  <link href="assets/img/favicon.png" rel="icon">
-  <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
-
-  <!-- Google Fonts -->
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>CSS LEARNS</title>
+  <link href="1/img/favicon.png" rel="icon">
+	<link rel="stylesheet" type="text/css" href="styles.css">
   <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Roboto:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
 
-  <!-- Vendor CSS Files -->
-  <link href="assets/vendor/aos/aos.css" rel="stylesheet">
-  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
-  <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
-  <link href="assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
-  <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
-  <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
-
-  <!-- Template Main CSS File -->
-  <link href="assets/css/style.css" rel="stylesheet">
 </head>
-
 <body>
-
-  <!-- ======= Header ======= -->
-  <header id="header" class="fixed-top ">
-    <div class="container d-flex align-items-center justify-content-between">
-      <h1 class="logo"><a href="index.html">MilezTech</a></h1>
-      <!-- Uncomment below if you prefer to use an image logo -->
-      <!-- <a href="index.html" class="logo"><img src="assets/img/logo.png" alt="" class="img-fluid"></a>-->
-
-      <nav id="navbar" class="navbar">
-        <ul>
-          <li><a class="nav-link scrollto active" href="#hero">Home</a></li>
-          <li><a class="nav-link scrollto" href="#about">About</a></li>
-          <li class="dropdown"><a href="#"><span>CSS Competencies</span> <i class="bi bi-chevron-down"></i></a>
-            <ul>
-              <li><a href="../1/index.html">Implement Data Backup and Data Recovery</a></li>
-              <li><a href="../2/index.html">Troubleshoot Common Hardware and Software Problems</a></li>
-              <li><a href="../3/index.html">Identify Computer Network Devices</a></li>
-              <li><a href="../4/index.html">How to Setup a Wired and Wireless Network</a></li>
-            </ul>
-          </li>
-          <li><a class="nav-link scrollto" href="#contact">Contact</a></li>
-        </ul>
-        <i class="bi bi-list mobile-nav-toggle"></i>
-      </nav><!-- .navbar -->
-    </div>
-  </header><!-- End Header -->
-
-  <!-- ======= Hero Section ======= -->
-  <section id="hero" class="d-flex align-items-center">
-
-    <div class="container-fluid" data-aos="fade-up">
-      <div class="row justify-content-center">
-        <div class="col-xl-5 col-lg-6 pt-3 pt-lg-0 order-2 order-lg-1 d-flex flex-column justify-content-center">
-          <h1>What You Should Know</h1>
-          <h2>For a Safe and Secure Network</h2>
-          <div><a href="#about" class="btn-get-started scrollto">Let's Get Started</a></div>
+  
+	<nav class="navbar">
+    <div class="navbar__container">
+        <a href="#home" id="navbar__logo">CSS Competencies</a>
+        <div class="navbar__toggle" id="mobile-menu">
+            <span class="bar"></span>
+            <span class="bar"></span>
+            <span class="bar"></span>
+      
+             <ul class="navbar__menu">
+                 <li class="navbar__item">
+                     <a href="#home" class="navbar__links" id="home-page">Home</a>
+                 </li>
+                 <li class="navbar__item">
+                    <a href="#about" class="navbar__links" id="about-page">About</a>
+                </li>
+                <li class="navbar__btn">
+                    <a href="../Techie/index.html" class="button" id="main-page">Main Page</a>
+                </li>
+             </ul>
         </div>
-        <div class="col-xl-4 col-lg-6 order-1 order-lg-2 hero-img" data-aos="zoom-in" data-aos-delay="150">
-          <img src="assets/img/hero-img.png" class="img-fluid animated" alt="">
+    </nav>
+    <!--Herosection-->
+    <div class="hero" id="home">
+        <div class="hero__container">
+          <h1 class="hero__heading">  Data Backup<span> and Recovery</span></h1>
+          <p class="hero__description"></p>
         </div>
-      </div>
-    </div>
-
-  </section><!-- End Hero -->
-
-  <main id="main">
-
-    <!-- ======= About Section ======= -->
-    <section id="about" class="about">
-      <div class="container">
-        <div class="row">
-          <div class="col-lg-6 order-1 order-lg-2" data-aos="zoom-in" data-aos-delay="150">
-            <img src="assets/img/about.jpg" class="img-fluid" alt="">
-          </div>
-          <div class="col-lg-6 pt-4 pt-lg-0 order-2 order-lg-1 content" data-aos="fade-right">
-            <h3>Competencies</h3>
-            <p class="fst-italic">
-              The following are the 4 main topics to be discussed:
-            </p>
-            <ul>
-              <li><i class="bi bi-check-circle"></i>Implement Data Backups and Data Recovery</li>
-              <li><i class="bi bi-check-circle"></i> Troubleshoot Common Hardware and Software Problems</li>
-              <li><i class="bi bi-check-circle"></i> Identify Computer Network Devices</li>
-              <li><i class="bi bi-check-circle"></i> How to Setup a Wired and Wireless Network</li>
-              <p> These comptencies are necessary knowledge that students in the ICT strand should learn as it may help them gain more knowledge and understanding of CSS topics that will help them with their future.
-            </ul>
-          </div>
-        </div>
-      </div>
-    </section><!-- End About Section -->
-
-    <!-- ======= Contact Section ======= -->
-      </div>
-    <section id="contact" class="contact section-bg">
-      <div class="container" data-aos="fade-up">
-
-        <div class="section-title">
-          <h2>Contact</h2>
-          <p>You may contact us through the following:</p>
-        </div>
-
-        <div class="row">
-          <div class="col-lg-6">
-            <div class="info-box mb-4">
-              <i class="bx bx-map"></i>
-              <h3>Our Address</h3>
-              <p>Brgy.Talacu-an, Leon, Iloilo, 5026</p>
+      </div> 
+      <!-- About Section -->
+    <div class="main" id="about">
+        <div class="main__container">
+            <div class="main__img--container">
+            <div class="main__img--card">
+<img src="bdr.jpg" alt="" class="background-image">
             </div>
           </div>
-
-          <div class="col-lg-3 col-md-6">
-            <div class="info-box  mb-4">
-              <i class="bx bx-envelope"></i>
-              <h3>Email Us</h3>
-              <p>gepigonemille14@gmail.com</p>
-            </div>
-          </div>
-
-          <div class="col-lg-3 col-md-6">
-            <div class="info-box  mb-4">
-              <i class="bx bx-phone-call"></i>
-              <h3>Call Us</h3>
-              <p>09564300573</p>
-            </div>
-          </div>
-
-        </div>
-
-        <div class="row">
-        </div>
-      </div>
+          <div class="main__content">
+            <h1>What is Data Backup and Recovery?</h1>
+            <h2>Data Backup</h2>
+            <p> Data backup is the practice of copying data from a primary to a secondary location, 
+                to protect it in case of a disaster, accident or malicious action. Data is the lifeblood of modern organizations,
+                and losing data can cause massive damage and disrupt business operations. This is why backing up your 
+                data is critical for all businesses, large and small.</p>
+<!---about2-->
+            <h2>Data Recovery</h2>
+            <p>Data recovery is the process of restoring data that has been lost, accidentally deleted, corrupted or made inaccessible.
+                In enterprise IT, data recovery typically refers to the restoration of data to a desktop, laptop, server or external storage
+                 system from a backup.</p>
+                 <h1>Data Backup and Recovery App</h1>
+                <h2>Recoverit Wondershare</h2>
+                <p> Wondershare Recoverit data recovery software accesses the paths to deleted files on your system. Wondershare released Recoverit in 2003 and has done a great job and bringing out new releases to become one of the leading data recovery tools. This simple to use software is available for both macOS and Windows and is able to recover documents, photos, videos, audio files, and even emails.
+                    In fact, there are over 1000 files that are recoverable with Recoverit. You can use Recoverit data recovery from 
+                    different locations from USBs to SD cards, desktops to specific folders, and formatted partitions.
+                     Impressively, you can also retrieve data from smartphones and digital cameras. 
+                     <h5>To download and learn more about Wondershare Recoverit click the button below </h5></p>
+            <button class="main__btn"><a href="https://recoverit.wondershare.com/guide.html">Wondershare Recoverit</a></button>
           </div>
         </div>
-      </div>
-    </section><!-- End Contact Section -->
-
-  </main><!-- End #main -->
-
-  <!-- ======= Footer ======= -->
-  <footer id="footer">
-
-    <div class="footer-top">
-      <div class="container">
-        <div class="row">
-
-          <div class="col-lg-3 col-md-6 footer-contact">
-            <h3>MilezTecH</h3>
-            <p>
-              Barangay Talacuan <br>
-              Leon,Iloilo<br>
-              <strong>Phone:</strong> 09564300573<br>
-              <strong>Email:</strong> gepigonemille14@gmail.com<br>
-            </p>
-          </div>
-
-      <div class="copyright-wrap d-md-flex py-4">
-        <div class="me-md-auto text-center text-md-start">
-          <div class="copyright">
-            &copy; Copyright <strong><span>MilezTech</span></strong>. All Rights Reserved 2022
-          </div>
-          <div class="credits">
-            <!-- All the links in the footer should remain intact. -->
-            <!-- You can delete the links only if you purchased the pro version. -->
-            <!-- Licensing information: https://bootstrapmade.com/license/ -->
-            <!-- Purchase the pro version with working PHP/AJAX contact form: https://bootstrapmade.com/techie-free-skin-bootstrap-3/ -->
-            Designed by Emille Rey Gepigon
-          </div>
-        </div>
-        <div class="social-links text-center text-md-right pt-3 pt-md-0">
-          <a href="#" class="twitter"><i class="bx bxl-twitter"></i></a>
-          <a href="#" class="facebook"><i class="bx bxl-facebook"></i></a>
-          <a href="#" class="instagram"><i class="bx bxl-instagram"></i></a>
-          <a href="#" class="google-plus"><i class="bx bxl-skype"></i></a>
-          <a href="#" class="linkedin"><i class="bx bxl-linkedin"></i></a>
-        </div>
-      </div>
-
-    </div>
-  </footer><!-- End Footer -->
-
-  <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
-  <div id="preloader"></div>
-
-  <!-- Vendor JS Files -->
-  <script src="assets/vendor/purecounter/purecounter.js"></script>
-  <script src="assets/vendor/aos/aos.js"></script>
-  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
-  <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
-  <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
-  <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
-  <script src="assets/vendor/php-email-form/validate.js"></script>
-
-  <!-- Template Main JS File -->
-  <script src="assets/js/main.js"></script>
-
+   <script src="app.js"></script>
 </body>
-
 </html>
